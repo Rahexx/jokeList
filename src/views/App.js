@@ -1,12 +1,6 @@
-import './App.css';
+import Table from '../components/Table/Table';
 import '../styles/main.css';
 
-function App() {
-  return (
-    <div>
-      <h1 className='text-2xl font-display'>Hello world</h1>
-    </div>
-  );
-}
+const App = () => <Table />;
 
 export default App;
