@@ -68,8 +68,16 @@ const App = () => {
     },
   ]);
 
+  const getPunchline = (id) => {
+    const searchObject = listJokes.find((item) => item.id === id);
+    const punchline = searchObject.punchline;
+
+    return punchline;
+  };
+
   const contextValue = {
     listJokes,
+    getPunchline,
   };
 
   return (

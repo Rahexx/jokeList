@@ -13,7 +13,7 @@ const Modal = () => {
         className='fa fa-times absolute top-2 right-5 text-3xl cursor-pointer lg:top-4 lg:right-7 lg:text-4xl'
         onClick={closeModal}
       ></i>
-      <h2 className='text-xl px-10 w-full text-center lg:text-2xl'>
+      <h2 className='modalText text-xl px-10 w-full text-center lg:text-2xl'>
         punchline
       </h2>
     </div>
