@@ -14,6 +14,6 @@ CellTable.defaultProps = {
 };
 
 CellTable.propTypes = {
-  type: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   otherClass: PropTypes.string,
 };
