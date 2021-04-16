@@ -364,7 +364,7 @@ ul {
  */
 
 html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
+  font-family: Source Sans Pro, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -503,7 +503,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Source Sans Pro, sans-serif;
 }
 
 /**
@@ -11239,6 +11239,18 @@ video {
 
 .clear-none {
   clear: none;
+}
+
+.font-sans {
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.font-serif {
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.font-mono {
+  font-family: Source Sans Pro, sans-serif;
 }
 
 .font-display {
@@ -40490,6 +40502,18 @@ video {
     clear: none;
   }
 
+  .sm\:font-sans {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .sm\:font-serif {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .sm\:font-mono {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
   .sm\:font-display {
     font-family: Source Sans Pro, sans-serif;
   }
@@ -69602,6 +69626,18 @@ video {
 
   .md\:clear-none {
     clear: none;
+  }
+
+  .md\:font-sans {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .md\:font-serif {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .md\:font-mono {
+    font-family: Source Sans Pro, sans-serif;
   }
 
   .md\:font-display {
@@ -98718,6 +98754,18 @@ video {
     clear: none;
   }
 
+  .lg\:font-sans {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .lg\:font-serif {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .lg\:font-mono {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
   .lg\:font-display {
     font-family: Source Sans Pro, sans-serif;
   }
@@ -127832,6 +127880,18 @@ video {
     clear: none;
   }
 
+  .xl\:font-sans {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .xl\:font-serif {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .xl\:font-mono {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
   .xl\:font-display {
     font-family: Source Sans Pro, sans-serif;
   }
@@ -156944,6 +157004,18 @@ video {
 
   .\32xl\:clear-none {
     clear: none;
+  }
+
+  .\32xl\:font-sans {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .\32xl\:font-serif {
+    font-family: Source Sans Pro, sans-serif;
+  }
+
+  .\32xl\:font-mono {
+    font-family: Source Sans Pro, sans-serif;
   }
 
   .\32xl\:font-display {

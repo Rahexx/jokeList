@@ -19,7 +19,7 @@ const Table = () => {
         <table className='bg-green-400 w-screen h-screen bg-gray-200 xl:overfolow-x-hidden xl:overflow-y-scroll'>
           <thead>
             <tr className='flex w-screen lg:h-20'>
-              <th className='headerTable w-1/6 lg:h-20 lg:text-2xl xl:w-1/12'>
+              <th className='headerTable  font-sans w-1/6 lg:h-20 lg:text-2xl xl:w-1/12'>
                 id
                 <i
                   className='fa fa-caret-up ml-2 origin-center cursor-pointer duration-500 lg:ml-5'
@@ -37,7 +37,7 @@ const Table = () => {
                   }}
                 ></i>
               </th>
-              <th className='headerTable w-2/6 lg:h-20 lg:text-2xl xl:w-3/12'>
+              <th className='headerTable  font-sansw-2/6 lg:h-20 lg:text-2xl xl:w-3/12'>
                 type
                 <i
                   className='fa fa-caret-up ml-2 origin-center cursor-pointer duration-500 lg:ml-5'
@@ -55,7 +55,7 @@ const Table = () => {
                   }}
                 ></i>
               </th>
-              <th className='headerTable border-r-0 w-3/6 px-3 lg:h-20 lg:text-2xl xl:w-8/12'>
+              <th className='headerTable  font-sansborder-r-0 w-3/6 px-3 lg:h-20 lg:text-2xl xl:w-8/12'>
                 setup
               </th>
             </tr>

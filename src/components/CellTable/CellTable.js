@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const CellTable = ({ text, otherClass }) => (
-  <td className={`rowTable lg:h-32 lg:text-2xl xl:h-28 ${otherClass}`}>
+  <td
+    className={`rowTable font-sans lg:h-32 lg:text-2xl xl:h-28 ${otherClass}`}
+  >
     {text}
   </td>
 );
