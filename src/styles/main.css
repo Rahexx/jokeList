@@ -587,7 +587,7 @@ video {
 }
 
 .rowTable {
-  height: 7rem;
+  height: 8rem;
   --tw-bg-opacity: 1;
   background-color: rgba(52, 211, 153, var(--tw-bg-opacity));
   text-align: center;

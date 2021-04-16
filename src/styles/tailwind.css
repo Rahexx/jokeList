@@ -13,7 +13,7 @@
 }
 
 .rowTable {
-  @apply h-28;
+  @apply h-32;
   @apply bg-green-400;
   @apply text-center;
   @apply border-r-2;

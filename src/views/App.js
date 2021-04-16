@@ -3,24 +3,19 @@ import AppContext from '../context';
 import '../styles/main.css';
 import Table from '../components/Table/Table';
 import Modal from '../components/Modal/Modal';
-const axios = require('axios');
+import { fromFetch } from 'rxjs/fetch';
 
 const App = () => {
   const [listJokes, setListJokes] = useState([]);
 
   useEffect(() => {
-    const getData = async () => {
-      await axios
-        .get('https://official-joke-api.appspot.com/random_ten')
-        .then((res) => {
-          setListJokes(res.data);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    };
+    const subscription = fromFetch(
+      'https://official-joke-api.appspot.com/random_ten',
+    ).subscribe((response) =>
+      response.json().then((data) => setListJokes(data)),
+    );
 
-    getData();
+    return () => subscription.unsubscribe();
   }, []);
 
   const getPunchline = (id) => {
