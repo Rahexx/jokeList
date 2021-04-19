@@ -383,6 +383,8 @@ module.exports = {
       10: 'repeat(10, minmax(0, 1fr))',
       11: 'repeat(11, minmax(0, 1fr))',
       12: 'repeat(12, minmax(0, 1fr))',
+      tableSmall: '20vw 33vw 47vw',
+      tableLarge: '10vw 20vw 70vw',
     },
     gridTemplateRows: {
       none: 'none',

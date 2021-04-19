@@ -15,19 +15,16 @@ const TableRow = ({ id, type, setup }) => {
     <AppContext.Consumer>
       {(context) => (
         <tr
-          className='flex w-screen lg:h-32 xl:h-28 cursor-pointer'
+          className='grid grid-cols-tableSmall w-screen h-40 cursor-pointer lg:h-32 xl:h-28 lg:grid-cols-tableLarge'
           onClick={() => {
             const punchline = context.getPunchline(id);
 
             openModal(punchline);
           }}
         >
-          <CellTable text={id} otherClass='w-1/6 xl:w-1/12' />
-          <CellTable text={type} otherClass='w-2/6 xl:w-3/12' />
-          <CellTable
-            text={setup}
-            otherClass='border-r-0 w-3/6 xl:w-3/12 px-3 xl:w-8/12'
-          />
+          <CellTable text={id} />
+          <CellTable text={type} />
+          <CellTable text={setup} otherClass='border-r-0' />
         </tr>
       )}
     </AppContext.Consumer>
